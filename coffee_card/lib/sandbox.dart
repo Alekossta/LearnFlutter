@@ -13,6 +13,7 @@ class Sandbox extends StatelessWidget
         centerTitle: true,
       ),
       body: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
           Container(
             width: 100,
