@@ -13,7 +13,23 @@ class Sandbox extends StatelessWidget
         centerTitle: true,
       ),
       body: Column(
-        children: [],
+        children: [
+          Container(
+            width: 100,
+            color: Colors.red,
+            child: Text("one"),
+          ),
+          Container(
+            width: 200,
+            color: Colors.green,
+            child: Text("two"),
+          ),
+          Container(
+            width: 300,
+            color: Colors.blue,
+            child: Text("three"),
+          ),          
+        ],
       ),
     );
   }
